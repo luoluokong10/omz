@@ -8,7 +8,7 @@ git submodule init
 git submodule update
 cd
 echo "ZSH_THEME=rubbyrussell" >> .zshrc
-echo "source ~/.config/zsh/init.zsh"
+echo "source ~/.config/zsh/init.zsh" >> .zshrc
 ```
 ## Require
 `zsh` `lua`
